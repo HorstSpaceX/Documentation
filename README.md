@@ -29,9 +29,16 @@ _G.Horst_SetDescription(messages)
 ```
 #### แบบส่ง encode_json เพิ่มเติมเอาไว้สำหรับ sheets
 ```lua
+local json_strings = { -- เป็น data ที่ได้จากการเช็ค  เช่น เลเวล, เพชร, ตัวละคร
+     Level = 10, 
+     Money = 500
+}
+
+local HttpService = game:GetService("HttpService") --  get serivce ของเกม
+local EncodeJson = HttpService:JSONEncode(payload) -- encode เป็น json ให้โปรแกรมไปประมวลผลต่อ
+    
 local messages = "🌲 : 💎 Diamond 1000 , ⚔️ Class : Warrior, Level 5"
-local extra_data = { event="level_up", points=500 }
-_G.Horst_SetDescription(messages, extra_data)
+_G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
 ```
 
 ---
