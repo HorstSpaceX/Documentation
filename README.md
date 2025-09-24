@@ -53,7 +53,7 @@ _G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
 
 ```lua
 local gems = 900
-if gems >= 100 then -- สมมุติว่าเกิน 100 แล้ว ส่ง status Done
+if gems >= 100 then -- สมมุติว่าเกินเพชร 100 แล้ว ส่ง status Done
     _G.Horst_AccountChangeDone()
 end
 ```
@@ -62,7 +62,7 @@ end
 
 ```lua
 local gems = 900
-if gems >= 100 then -- สมมุติว่าเกิน 100 แล้ว
+if gems >= 500 then --  สมมุติว่าเกินเพชร 500 แล้ว ส่ง status Done
     local ok, err = _G.Horst_AccountChangeDone()
     if ok then
         print("Account change done sent successfully!")
