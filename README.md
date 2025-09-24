@@ -18,7 +18,7 @@
 | ชื่อพารามิเตอร์ | ประเภท | คำอธิบาย | ค่าเริ่มต้น |
 |-----------------|--------|-----------|-------------|
 | `description`   | string | ข้อความที่แสดงในรีจอย | - |
-| `encode_json`   | any (optional) | Json ที่ผ่าน HttpServiceEncode  | - |
+| `encode_json`   | json | Json ที่ผ่าน HttpServiceEncode  | - |
 
 ### Example : ตัวอย่างการใช้งาน
 ---
