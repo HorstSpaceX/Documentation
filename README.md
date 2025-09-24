@@ -20,4 +20,15 @@ Includes functions for sending descriptions and notifying when an account change
 Simply include these functions in a LocalScript in Roblox and make sure `_G.ws` is a valid WebSocket connection.
 
 ```lua
--- Example: _G.ws = some WebSocket connection
+-- Example: 🛠️ ฟังก์ชัน
+1️⃣ _G.Horst_SetDescription
+
+คำอธิบาย:
+ส่งข้อความพร้อมรายละเอียดไปยัง WebSocket
+หากไม่ส่ง encode_json จะส่งค่า JSON เริ่มต้นเป็น {"MackyJ":"nil"}
+
+Parameters:
+
+ชื่อ	ประเภท	คำอธิบาย
+description	string	ข้อความที่จะส่ง
+encode_json	any (optional)	ข้อมูลเพิ่มเติมที่เข้ารหัสเป็น JSON (ค่าเริ่มต้น {"MackyJ":"nil"})
