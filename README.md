@@ -35,7 +35,7 @@ local json_strings = { -- เป็น data ที่ได้จากการ
 }
 
 local HttpService = game:GetService("HttpService") --  Get serivce ของเกม
-local EncodeJson = HttpService:JSONEncode(payload) -- Encode เป็น json ก่อนเสมอ
+local EncodeJson = HttpService:JSONEncode(json_strings) -- Encode เป็น json ก่อนเสมอ
     
 local messages = "🌲 : 💎 Diamond 1000 , ⚔️ Class : Warrior, Level 5"
 _G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
