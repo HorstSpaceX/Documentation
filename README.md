@@ -14,7 +14,7 @@
 
 ---
 
-## Functions _G.Horst_SetDescription
+## ฟังก์ชั่น _G.Horst_SetDescription
 
 ก็คือการ  SetDescription ของ Account ในโปรแกรม
 
