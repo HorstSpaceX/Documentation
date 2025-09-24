@@ -40,6 +40,10 @@ local EncodeJson = HttpService:JSONEncode(json_strings) -- Encode เป็น j
 local messages = "🌲 : 💎 Diamond 1000 , ⚔️ Class : Warrior, Level 5"
 _G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
 ```
+### อักษรที่ห้ามใช้ในการส่ง Description
+```lua
+| ;  -- 2ตัวอักษรนี้ห้ามใช้เด็ดขาด
+```
 
 ---
 
