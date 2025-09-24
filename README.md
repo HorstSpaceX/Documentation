@@ -36,9 +36,8 @@ _G.Horst_SetDescription(messages, extra_data)
 
 ---
 
-## 2️⃣ ฟังก์ชั่น _G.Horst_AccountChangeDone
+## 2. ฟังก์ชั่น _G.Horst_AccountChangeDone
 
-## คำอธิบายฟังก์ชัน : 
 ก็ไม่มีอะไรมากจัฟ เอาไว้ใช้งานเมื่อได้ของที่ต้องการ เช่นเพชรครบ ก็ใช้ _G.Horst_AccountChangeDone() ได้เลย
 
 ---
