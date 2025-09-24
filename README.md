@@ -1,7 +1,6 @@
-# Horst WebSocket Utilities for Roblox
+# Horst Documentation
 
-A small Lua utility for sending messages via a WebSocket (`_G.ws`) in Roblox.  
-Includes functions for sending descriptions and notifying when an account change is done.
+ฟังก์ชั่นสำหรับการส่ง logs และ เปลี่ยนไอดี
 
 ---
 
@@ -15,9 +14,9 @@ Includes functions for sending descriptions and notifying when an account change
 
 ---
 
-## Installation
+## Functions _G.Horst_SetDescription
 
-Simply include these functions in a LocalScript in Roblox and make sure `_G.ws` is a valid WebSocket connection.
+ก็คือการ  SetDescription ของ Account ในโปรแกรม
 
 ```lua
 -- Example: 🛠️ ฟังก์ชัน
