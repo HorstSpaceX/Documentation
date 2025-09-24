@@ -49,7 +49,16 @@ _G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
 
 ---
 
-### Example : ตัวอย่างการใช้งาน
+### Example : แบบไม่อ่าน err
+
+```lua
+local gems = 900
+if gems >= 100 then -- สมมุติว่าเกิน 100 แล้ว ส่ง status Done
+    _G.Horst_AccountChangeDone()
+end
+```
+
+### Example : ตัวอย่างการใช้งานแบบอ่าน err
 
 ```lua
 local gems = 900
