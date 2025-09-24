@@ -4,7 +4,7 @@
 
 ---
 
-## ฟังก์ชั่น _G.Horst_SetDescription
+## 1. ฟังก์ชั่น _G.Horst_SetDescription
 
 **คำอธิบาย:**  
 ฟังก์ชั่นนี้จะรับ 2 ค่าคือ 
