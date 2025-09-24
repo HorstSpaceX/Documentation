@@ -42,7 +42,7 @@ _G.Horst_SetDescription(messages, EncodeJson) -- เพิ่ม Parameter
 ```
 ### อักษรที่ห้ามใช้ในการส่ง Description
 ```lua
-| ;  -- 2ตัวอักษรนี้ห้ามใช้เด็ดขาด
+|  และ ;  -- 2 ตัวอักษรนี้ห้ามใช้เด็ดขาด
 ```
 
 ---
